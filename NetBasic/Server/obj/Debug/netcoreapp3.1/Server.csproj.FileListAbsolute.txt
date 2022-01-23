@@ -1,0 +1,13 @@
+D:\github\hok_net\NetBasic\Server\bin\Debug\netcoreapp3.1\Server.exe
+D:\github\hok_net\NetBasic\Server\bin\Debug\netcoreapp3.1\Server.deps.json
+D:\github\hok_net\NetBasic\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.json
+D:\github\hok_net\NetBasic\Server\bin\Debug\netcoreapp3.1\Server.runtimeconfig.dev.json
+D:\github\hok_net\NetBasic\Server\bin\Debug\netcoreapp3.1\Server.dll
+D:\github\hok_net\NetBasic\Server\bin\Debug\netcoreapp3.1\Server.pdb
+D:\github\hok_net\NetBasic\Server\obj\Debug\netcoreapp3.1\Server.csproj.AssemblyReference.cache
+D:\github\hok_net\NetBasic\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfoInputs.cache
+D:\github\hok_net\NetBasic\Server\obj\Debug\netcoreapp3.1\Server.AssemblyInfo.cs
+D:\github\hok_net\NetBasic\Server\obj\Debug\netcoreapp3.1\Server.csproj.CoreCompileInputs.cache
+D:\github\hok_net\NetBasic\Server\obj\Debug\netcoreapp3.1\Server.dll
+D:\github\hok_net\NetBasic\Server\obj\Debug\netcoreapp3.1\Server.pdb
+D:\github\hok_net\NetBasic\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
