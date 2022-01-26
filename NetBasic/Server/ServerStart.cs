@@ -26,6 +26,7 @@ namespace Server
             while (true)
             {
                 // 每一个client都对应一个server
+                // 封装得更复杂
                 TcpClient client = listener.AcceptTcpClient();
                 Console.WriteLine("Connection accepted.");
                 NetworkStream ns = client.GetStream();

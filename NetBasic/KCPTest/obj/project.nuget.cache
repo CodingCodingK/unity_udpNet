@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dhavPpx65Rc/MzbeqSbr/yN7NlcLVUEfvUByGwNgkZN5SNzfv5q0ECGuHbNvVHtBPpkkqra7zGbuQIqDavoGLA==",
+  "success": true,
+  "projectFilePath": "D:\\github\\unity_udpNet\\NetBasic\\KCPTest\\02.KCPTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YAN\\.nuget\\packages\\kcp\\2.0.0\\kcp.2.0.0.nupkg.sha512",
+    "C:\\Users\\YAN\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

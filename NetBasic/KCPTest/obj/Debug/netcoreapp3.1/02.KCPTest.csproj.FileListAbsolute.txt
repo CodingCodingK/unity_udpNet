@@ -1,0 +1,15 @@
+D:\github\unity_udpNet\NetBasic\KCPTest\bin\Debug\netcoreapp3.1\02.KCPTest.exe
+D:\github\unity_udpNet\NetBasic\KCPTest\bin\Debug\netcoreapp3.1\02.KCPTest.deps.json
+D:\github\unity_udpNet\NetBasic\KCPTest\bin\Debug\netcoreapp3.1\02.KCPTest.runtimeconfig.json
+D:\github\unity_udpNet\NetBasic\KCPTest\bin\Debug\netcoreapp3.1\02.KCPTest.runtimeconfig.dev.json
+D:\github\unity_udpNet\NetBasic\KCPTest\bin\Debug\netcoreapp3.1\02.KCPTest.dll
+D:\github\unity_udpNet\NetBasic\KCPTest\bin\Debug\netcoreapp3.1\02.KCPTest.pdb
+D:\github\unity_udpNet\NetBasic\KCPTest\bin\Debug\netcoreapp3.1\Kcp.dll
+D:\github\unity_udpNet\NetBasic\KCPTest\obj\Debug\netcoreapp3.1\02.KCPTest.csproj.AssemblyReference.cache
+D:\github\unity_udpNet\NetBasic\KCPTest\obj\Debug\netcoreapp3.1\02.KCPTest.AssemblyInfoInputs.cache
+D:\github\unity_udpNet\NetBasic\KCPTest\obj\Debug\netcoreapp3.1\02.KCPTest.AssemblyInfo.cs
+D:\github\unity_udpNet\NetBasic\KCPTest\obj\Debug\netcoreapp3.1\02.KCPTest.csproj.CoreCompileInputs.cache
+D:\github\unity_udpNet\NetBasic\KCPTest\obj\Debug\netcoreapp3.1\02.KCPTest.csproj.CopyComplete
+D:\github\unity_udpNet\NetBasic\KCPTest\obj\Debug\netcoreapp3.1\02.KCPTest.dll
+D:\github\unity_udpNet\NetBasic\KCPTest\obj\Debug\netcoreapp3.1\02.KCPTest.pdb
+D:\github\unity_udpNet\NetBasic\KCPTest\obj\Debug\netcoreapp3.1\02.KCPTest.genruntimeconfig.cache

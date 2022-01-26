@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+s3GBXcRjLcLQCdZpQItSUD6zJvC+ru3tdK9p7XfWti6Lpvg64GuZxdyzzWy6yIht1SRYdDbUa4dFHLHqZJHxQ==",
+  "dgSpecHash": "paw/QYvYpdVq8TUX2/FhBvaI6VTv6ffr3HF77ea6F0An4Nh4kdJKxC5GlRUsrn1XJsBI2Dyy7D/PnzVZu3ThIg==",
   "success": true,
-  "projectFilePath": "D:\\github\\hok_net\\NetBasic\\Server\\Server.csproj",
+  "projectFilePath": "D:\\github\\unity_udpNet\\NetBasic\\Server\\01.Server.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

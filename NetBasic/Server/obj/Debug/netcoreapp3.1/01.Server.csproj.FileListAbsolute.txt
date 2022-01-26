@@ -1,0 +1,13 @@
+D:\github\unity_udpNet\NetBasic\Server\bin\Debug\netcoreapp3.1\01.Server.exe
+D:\github\unity_udpNet\NetBasic\Server\bin\Debug\netcoreapp3.1\01.Server.deps.json
+D:\github\unity_udpNet\NetBasic\Server\bin\Debug\netcoreapp3.1\01.Server.runtimeconfig.json
+D:\github\unity_udpNet\NetBasic\Server\bin\Debug\netcoreapp3.1\01.Server.runtimeconfig.dev.json
+D:\github\unity_udpNet\NetBasic\Server\bin\Debug\netcoreapp3.1\01.Server.dll
+D:\github\unity_udpNet\NetBasic\Server\bin\Debug\netcoreapp3.1\01.Server.pdb
+D:\github\unity_udpNet\NetBasic\Server\obj\Debug\netcoreapp3.1\01.Server.csproj.AssemblyReference.cache
+D:\github\unity_udpNet\NetBasic\Server\obj\Debug\netcoreapp3.1\01.Server.AssemblyInfoInputs.cache
+D:\github\unity_udpNet\NetBasic\Server\obj\Debug\netcoreapp3.1\01.Server.AssemblyInfo.cs
+D:\github\unity_udpNet\NetBasic\Server\obj\Debug\netcoreapp3.1\01.Server.csproj.CoreCompileInputs.cache
+D:\github\unity_udpNet\NetBasic\Server\obj\Debug\netcoreapp3.1\01.Server.dll
+D:\github\unity_udpNet\NetBasic\Server\obj\Debug\netcoreapp3.1\01.Server.pdb
+D:\github\unity_udpNet\NetBasic\Server\obj\Debug\netcoreapp3.1\01.Server.genruntimeconfig.cache

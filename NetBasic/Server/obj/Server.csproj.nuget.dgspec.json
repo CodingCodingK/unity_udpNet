@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\hok_net\\NetBasic\\Server\\Server.csproj": {}
+    "D:\\github\\unity_udpNet\\NetBasic\\Server\\Server.csproj": {}
   },
   "projects": {
-    "D:\\github\\hok_net\\NetBasic\\Server\\Server.csproj": {
+    "D:\\github\\unity_udpNet\\NetBasic\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\hok_net\\NetBasic\\Server\\Server.csproj",
+        "projectUniqueName": "D:\\github\\unity_udpNet\\NetBasic\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "D:\\github\\hok_net\\NetBasic\\Server\\Server.csproj",
+        "projectPath": "D:\\github\\unity_udpNet\\NetBasic\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\YAN\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\hok_net\\NetBasic\\Server\\obj\\",
+        "outputPath": "D:\\github\\unity_udpNet\\NetBasic\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
