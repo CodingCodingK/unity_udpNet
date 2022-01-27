@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.IO.Compression;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading;
 
@@ -99,6 +103,84 @@ namespace PENet
 
             Console.WriteLine(msg);
             Console.ForegroundColor = ConsoleColor.Gray;
+        }
+
+        public static byte[] Serialize<T>(T msg) where T : KCPMsg
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                try
+                {
+                    BinaryFormatter bf = new BinaryFormatter();
+                    bf.Serialize(ms, msg);
+                    ms.Seek(0, SeekOrigin.Begin);
+                    return ms.ToArray();
+                }
+                catch(SerializationException se)
+                {
+                    Error("Failed to serialized: {0}", se.Message);
+                    throw se;
+                }
+            }
+        }
+
+        public static T DeSerialize<T>(byte[] bytes) where T : KCPMsg
+        {
+            using (MemoryStream ms = new MemoryStream(bytes))
+            {
+                try
+                {
+                    BinaryFormatter bf = new BinaryFormatter();
+                    T msg = (T)bf.Deserialize(ms);
+                    return msg;
+                }
+                catch (Exception e)
+                {
+                    Error("Failed to Deserialized: {0}. bytesLength: {1}", e.Message, bytes.Length);
+                    throw e;
+                }
+            }
+        }
+
+        public static byte[] Compress(byte[] input)
+        {
+            using (MemoryStream outMS = new MemoryStream())
+            {
+                using (GZipStream gzs = new GZipStream(outMS, CompressionMode.Compress, true))
+                {
+                    gzs.Write(input, 0, input.Length);
+                    gzs.Close();
+                    return outMS.ToArray();
+                }
+            }
+        }
+
+        public static byte[] DeCompress(byte[] input)
+        {
+            using (MemoryStream inputMS = new MemoryStream(input))
+            {
+                using (MemoryStream outputMS = new MemoryStream())
+                {
+                    using (GZipStream gzs = new GZipStream(inputMS, CompressionMode.Decompress))
+                    {
+                        byte[] bytes = new byte[1024];
+                        int len = 0;
+                        while ((len = gzs.Read(bytes,0,bytes.Length)) > 0)
+                        {
+                            outputMS.Write(bytes, 0, len);
+                        }
+                        
+                        gzs.Close();
+                        return outputMS.ToArray();
+                    }
+                }
+            }
+        }
+
+        private static readonly DateTime utcStart = new DateTime(1970, 1, 1);
+        public static ulong GetUTCStartMilliseconds()
+        {
+            return (ulong) (DateTime.UtcNow - utcStart).TotalMilliseconds;
         }
     }
 

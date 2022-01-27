@@ -3,15 +3,29 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace PENet
 {
-    public class KCPNet<T> where T : KCPSession, new()
+    public class KCPNet<T,K> 
+        where T : KCPSession<K>, new() 
+        where K : KCPMsg,new()
     {
         UdpClient udp;
         IPEndPoint remotePoint;
 
+        private CancellationTokenSource cts;
+        private CancellationToken ct;
+
         public T clientSession;
+
+        public KCPNet()
+        {
+            cts = new CancellationTokenSource();
+            ct = cts.Token;
+        }
+
         #region
 
         public void StartAsClient(string ip,int port)
@@ -19,6 +33,15 @@ namespace PENet
             udp = new UdpClient(0);
             remotePoint = new IPEndPoint(IPAddress.Parse(ip), port);
             KCPTool.ColorLog(KCPLogColor.Green, "Client Starting...");
+
+            Task.Run(ClientReceive,ct);
+        }
+
+        public void CloseClient()
+        {
+            
+            clientSession?.CloseSession();
+            
         }
 
         public void ConnectServer()
@@ -44,6 +67,12 @@ namespace PENet
             {
                 try
                 {
+                    if (ct.IsCancellationRequested)
+                    {
+                        KCPTool.ColorLog(KCPLogColor.Cyan,"ClientReceive Task is Cancelled.");
+                        break;
+                    }
+
                     result = await udp.ReceiveAsync();
 
                     if (Equals(remotePoint, result.RemoteEndPoint))
@@ -66,12 +95,21 @@ namespace PENet
                                 // 会话处理
                                 clientSession = new T();
                                 clientSession.InitSession(sid, SendUDPMsg, remotePoint);
+                                clientSession.OnSessionClose = OnClientSessionClose;
                             }
                         }
                         else
                         {
-                            // 处理业务逻辑数据
-
+                            if (clientSession != null && clientSession.IsConnected())
+                            {
+                                // 处理业务逻辑数据
+                                clientSession.ReceiveData(result.Buffer);
+                            }
+                            else
+                            {
+                                // 没初始化且sid!=0时，数据消息提前到了，直接丢弃，直到初始化完成后会重传
+                                KCPTool.Warn("Client is Initing...{0}",sid);
+                            }
                         }
                     }
                     else
@@ -84,6 +122,14 @@ namespace PENet
                     KCPTool.Warn("Client Udp Receive Data Exception:{0}", e.ToString());
                 }
             }
+        }
+
+        void OnClientSessionClose(uint sid)
+        {
+            cts.Cancel(); // 取消ClientReceive v
+            udp?.Close();
+            udp = null;
+            KCPTool.Warn("Client Session Close,sid:{0}",sid);
         }
     }
 }

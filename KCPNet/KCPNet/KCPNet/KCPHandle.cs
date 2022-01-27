@@ -12,6 +12,7 @@ namespace PENet
     public class KCPHandle : IKcpCallback
     {
         public Action<Memory<byte>> Out;
+        public Action<byte[]> Recv;
 
         public void Output(IMemoryOwner<byte> buffer, int avalidLength)
         {
@@ -19,6 +20,11 @@ namespace PENet
             {
                 Out(buffer.Memory.Slice(0, avalidLength));
             }
+        }
+
+        public void Receive(byte[] buffer)
+        {
+            Recv?.Invoke(buffer);
         }
     }
 }

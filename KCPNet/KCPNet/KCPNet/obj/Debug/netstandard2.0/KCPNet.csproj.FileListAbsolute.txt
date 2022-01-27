@@ -1,0 +1,9 @@
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPNet\bin\Debug\netstandard2.0\KCPNet.deps.json
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPNet\bin\Debug\netstandard2.0\KCPNet.dll
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPNet\bin\Debug\netstandard2.0\KCPNet.pdb
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPNet\obj\Debug\netstandard2.0\KCPNet.csproj.AssemblyReference.cache
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPNet\obj\Debug\netstandard2.0\KCPNet.AssemblyInfoInputs.cache
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPNet\obj\Debug\netstandard2.0\KCPNet.AssemblyInfo.cs
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPNet\obj\Debug\netstandard2.0\KCPNet.csproj.CoreCompileInputs.cache
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPNet\obj\Debug\netstandard2.0\KCPNet.dll
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPNet\obj\Debug\netstandard2.0\KCPNet.pdb
