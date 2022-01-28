@@ -1,0 +1,15 @@
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\bin\Debug\KCPClient_Example.exe.config
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\bin\Debug\KCPClient_Example.exe
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\bin\Debug\KCPClient_Example.pdb
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\bin\Debug\KCPNet.dll
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\bin\Debug\z.KCPProtocol_Example.dll
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\bin\Debug\System.Memory.dll
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\bin\Debug\System.Numerics.Vectors.dll
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\bin\Debug\System.Buffers.dll
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\bin\Debug\KCPNet.pdb
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\bin\Debug\z.KCPProtocol_Example.pdb
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\obj\Debug\z.KCPClient_Example.csproj.AssemblyReference.cache
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\obj\Debug\z.KCPClient_Example.csproj.CoreCompileInputs.cache
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\obj\Debug\z.KCPClient_Example.csproj.CopyComplete
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\obj\Debug\KCPClient_Example.exe
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPClient_Example\obj\Debug\KCPClient_Example.pdb

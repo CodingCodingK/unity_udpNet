@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Kcp/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Kcp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Kcp.dll": {}
+        }
+      },
+      "KCPNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Kcp": "2.3.0"
+        },
+        "compile": {
+          "bin/placeholder/KCPNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KCPNet.dll": {}
+        }
+      },
+      "test.KCPProtocol_Example/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "KCPNet": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/test.KCPProtocol_Example.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/test.KCPProtocol_Example.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kcp/2.3.0": {
+      "sha512": "cegDiYxgyQ9aVGOpEuVTNMhb4P7Sfc4lUnZmlC2Mj5QVuvnglVU2ol3yTWZyQDDkmV2F8qzgF3OkAmbY3cwSPw==",
+      "type": "package",
+      "path": "kcp/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "kcp.2.3.0.nupkg.sha512",
+        "kcp.nuspec",
+        "lib/net5.0/Kcp.dll",
+        "lib/net5.0/Kcp.pdb",
+        "lib/net5.0/Kcp.xml",
+        "lib/netstandard1.1/Kcp.dll",
+        "lib/netstandard1.1/Kcp.pdb",
+        "lib/netstandard1.1/Kcp.xml",
+        "lib/netstandard2.0/Kcp.dll",
+        "lib/netstandard2.0/Kcp.pdb",
+        "lib/netstandard2.0/Kcp.xml",
+        "lib/netstandard2.1/Kcp.dll",
+        "lib/netstandard2.1/Kcp.pdb",
+        "lib/netstandard2.1/Kcp.xml"
+      ]
+    },
+    "KCPNet/1.0.0": {
+      "type": "project",
+      "path": "../KCPNet/KCPNet.csproj",
+      "msbuildProject": "../KCPNet/KCPNet.csproj"
+    },
+    "test.KCPProtocol_Example/1.0.0": {
+      "type": "project",
+      "path": "../KCPProtocol_Example/test.KCPProtocol_Example.csproj",
+      "msbuildProject": "../KCPProtocol_Example/test.KCPProtocol_Example.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "KCPNet >= 1.0.0",
+      "test.KCPProtocol_Example >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\YAN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\github\\unity_udpNet\\KCPNet\\KCPNet\\test.KCPServer_Example\\test.KCPServer_Example.csproj",
+      "projectName": "test.KCPServer_Example",
+      "projectPath": "D:\\github\\unity_udpNet\\KCPNet\\KCPNet\\test.KCPServer_Example\\test.KCPServer_Example.csproj",
+      "packagesPath": "C:\\Users\\YAN\\.nuget\\packages\\",
+      "outputPath": "D:\\github\\unity_udpNet\\KCPNet\\KCPNet\\test.KCPServer_Example\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\YAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\github\\unity_udpNet\\KCPNet\\KCPNet\\KCPNet\\KCPNet.csproj": {
+              "projectPath": "D:\\github\\unity_udpNet\\KCPNet\\KCPNet\\KCPNet\\KCPNet.csproj"
+            },
+            "D:\\github\\unity_udpNet\\KCPNet\\KCPNet\\KCPProtocol_Example\\test.KCPProtocol_Example.csproj": {
+              "projectPath": "D:\\github\\unity_udpNet\\KCPNet\\KCPNet\\KCPProtocol_Example\\test.KCPProtocol_Example.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

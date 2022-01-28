@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KCPNet", "KCPNet\KCPNet.csproj", "{2A02CD3C-FEF1-4F46-8208-16AB3A036C95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KCPNet", "KCPNet\KCPNet.csproj", "{2A02CD3C-FEF1-4F46-8208-16AB3A036C95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.KCPClient_Example", "KCPClient_Example\test.KCPClient_Example.csproj", "{A4A73EC4-7F00-4671-B8B3-E735F1EABB3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.KCPProtocol_Example", "KCPProtocol_Example\test.KCPProtocol_Example.csproj", "{B800A6C1-57BA-4687-9A2B-C985C8A94D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.KCPServer_Example", "test.KCPServer_Example\test.KCPServer_Example.csproj", "{CE667530-8B4C-416C-BB55-6B2B8DC494D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{2A02CD3C-FEF1-4F46-8208-16AB3A036C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A02CD3C-FEF1-4F46-8208-16AB3A036C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A02CD3C-FEF1-4F46-8208-16AB3A036C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A73EC4-7F00-4671-B8B3-E735F1EABB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A73EC4-7F00-4671-B8B3-E735F1EABB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A73EC4-7F00-4671-B8B3-E735F1EABB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A73EC4-7F00-4671-B8B3-E735F1EABB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B800A6C1-57BA-4687-9A2B-C985C8A94D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B800A6C1-57BA-4687-9A2B-C985C8A94D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B800A6C1-57BA-4687-9A2B-C985C8A94D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B800A6C1-57BA-4687-9A2B-C985C8A94D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE667530-8B4C-416C-BB55-6B2B8DC494D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE667530-8B4C-416C-BB55-6B2B8DC494D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE667530-8B4C-416C-BB55-6B2B8DC494D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE667530-8B4C-416C-BB55-6B2B8DC494D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

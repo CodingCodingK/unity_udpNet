@@ -1,0 +1,12 @@
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\bin\Debug\netstandard2.0\test.KCPProtocol_Example.deps.json
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\bin\Debug\netstandard2.0\test.KCPProtocol_Example.dll
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\bin\Debug\netstandard2.0\test.KCPProtocol_Example.pdb
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\bin\Debug\netstandard2.0\KCPNet.dll
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\bin\Debug\netstandard2.0\KCPNet.pdb
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\obj\Debug\netstandard2.0\test.KCPProtocol_Example.csproj.AssemblyReference.cache
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\obj\Debug\netstandard2.0\test.KCPProtocol_Example.AssemblyInfoInputs.cache
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\obj\Debug\netstandard2.0\test.KCPProtocol_Example.AssemblyInfo.cs
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\obj\Debug\netstandard2.0\test.KCPProtocol_Example.csproj.CoreCompileInputs.cache
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\obj\Debug\netstandard2.0\test.KCPProtocol_Example.csproj.CopyComplete
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\obj\Debug\netstandard2.0\test.KCPProtocol_Example.dll
+D:\github\unity_udpNet\KCPNet\KCPNet\KCPProtocol_Example\obj\Debug\netstandard2.0\test.KCPProtocol_Example.pdb

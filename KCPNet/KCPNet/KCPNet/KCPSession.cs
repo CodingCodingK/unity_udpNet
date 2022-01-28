@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace PENet
 {
+    /// <summary>
+    /// 具体通信协议,必须继承这个
+    /// </summary>
     [Serializable]
     public abstract class KCPMsg
     {
