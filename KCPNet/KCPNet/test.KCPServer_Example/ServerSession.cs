@@ -34,9 +34,10 @@ namespace KCPServer_Example
                     NetMsg pingMsg = new NetMsg
                     {
                         cmd = CMD.Ping,
-                        ping = new Ping {isOver = false},
+                        ping = new Ping {isOver = true},
                     };
                     // 3次心跳检测超时，本地模拟关闭消息
+                    KCPTool.ColorLog(KCPLogColor.Magenta, "PING IS OVER BEFORE");
                     OnReceiveMsg(pingMsg);
                 }
             }
@@ -50,18 +51,22 @@ namespace KCPServer_Example
             {
                 if (msg.ping.isOver)
                 {
-                    // TODO ??
+                    KCPTool.ColorLog(KCPLogColor.Magenta,"PING IS OVER");
+                    // 在本地执行清楚Session的操作
                     CloseSession();
                 }
                 else
                 {
+                    KCPTool.ColorLog(KCPLogColor.Magenta, "PingCounter = 0;");
                     // 收到ping请求，重置检查计数
                     checkCounter = 0;
                     var pingMsg = new NetMsg
                     {
                         cmd = CMD.Ping,
-                        ping = new Ping {isOver = false}
+                        ping = new Ping {isOver = false},
+                        info = "ping test",
                     };
+                    // 对对应的Client Session发送msg
                     SendMsg(pingMsg);
                 }
             }

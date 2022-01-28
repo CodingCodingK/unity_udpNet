@@ -30,7 +30,7 @@ namespace KCPClient_Example
 
         protected override void OnReceiveMsg(NetMsg msg)
         {
-            KCPTool.ColorLog(KCPLogColor.Magenta, "Sid:{0}, Msg:{1}",m_sessionId,msg.info);
+            KCPTool.ColorLog(KCPLogColor.Magenta, "From Server:Sid:{0}, Msg:{1}",m_sessionId,msg.info);
         }
     }
 }

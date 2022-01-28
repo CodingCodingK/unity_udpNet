@@ -155,7 +155,7 @@ namespace PENet
             m_kcp = null;
             m_sessionId = 0;
 
-            cts = null;
+            cts.Cancel();
         }
 
         #region API
